@@ -16,7 +16,7 @@
 }
 .main {
   background-color: rgba(66, 25, 131, 255);
-  height: 100vh;
+  height: 105vh;
 }
 .logo button {
   background-color: #b880ff;
@@ -36,15 +36,46 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.content h1{
-    font-size: 55px;
-    color: white;
-
+.content h1 {
+  font-size: 69px;
+  color: white;
+  margin-bottom: 10px;
 }
-.content p{
-    color: white;
-    font-size: 25px;
-    font-style: initial;
+.content div {
+  /* display: flex; */
+  /* justify-content: baseline; */
+  width: 700px;
+  margin-top: 253px;
+  margin-left: 103px;
+}
+.content button {
+  outline: none;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: greenyellow;
+}
+.content p {
+  color: white;
+  font-size: 35px;
+  font-style: initial;
+  margin-bottom: 10px;
+}
+.content input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  border-radius: 10px;
+  outline: none;
+}
+.content button {
+  width: 20%;
+  height: 55px;
+  margin-left: 5px;
 }
 .container {
   max-width: 1050px;
